@@ -1,0 +1,59 @@
+.dialog-box-container
+  position fixed
+  top 0
+  bottom 0
+  left 0
+  right 0
+  background-color rgba(255, 255, 255, 0.9)
+
+  .dialog-box
+    position absolute
+    left 0
+    right 0
+    top 0
+    width 600px
+    margin: 100px auto 0
+    background-color #fff
+    box-shadow 1px 1px 2px 1px rgba(0, 0, 0, 0.2)
+
+    figure
+      margin 0
+      padding 20px
+      overflow hidden
+      img
+        float left
+        width 60%
+
+      figcaption
+        margin-left 65%
+
+        p
+          margin 0.5em 0
+
+    .btn-close
+      position absolute
+      right 0
+      top 0
+      margin-top -15px
+      margin-right -15px
+      background-color #fff
+      box-shadow 1px 1px 2px 1px rgba(0, 0, 0, 0.2)
+
+
+.btn.text
+  display inline-block
+  height 30px
+  width 30px
+  text-align center
+  line-height 30px
+  background transparent
+  border 1px solid #333
+  outline 0
+  border-radius 50%
+  cursor pointer
+
+.closeIcon:before
+  content 'X'
+  display inline-block
+  font-weight bold
+  font-size 1.2em
